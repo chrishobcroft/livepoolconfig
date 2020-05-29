@@ -29,3 +29,5 @@ sudo apt upgrade -y
 
 wget https://github.com/Livepool-io/transcoder/releases/download/v0.5.7/0.5.7-55441d23_livepool-linux-amd64.tar.gz
 tar -xzf 0.5.7-55441d23_livepool-linux-amd64.tar.gz
+cd livepool-linux-amd64
+./livepool -ethAcctAddr (insert your Ethereum address here)
